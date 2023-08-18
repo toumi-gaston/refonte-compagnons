@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/artistes.css">
+    <script src="./js/artistes.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="m_header">
+            <div class="m_header_top">
+                <img class="m_header_top_logo" src="./images/logo.png" alt="Logo Les Compagnons de la mise en valeur du patrimoine vivant">
+                <button class="m_header_top_hamburger"><span class="material-symbols-outlined m_header_top_hamburger_icon">menu</span></button>
+            </div>
+            <div class="m_header_container">
+                <nav class="m_header_container_nav">
+                    <a href="">Événements à venir</a>
+                    <a href="">Acheter des billets</a>
+                    <a href="">Contact</a>
+                    <a href="">À propos</a>
+                    <a href="">FAQ</a>
+                </nav>
+                <div class="m_header_container_button">
+                    <button class="m_header_container_button_primary bg_compagnons ">
+                        <div class="m_header_container_button_primary_left">
+                            <p>NOTRE ORGANISME</p>
+                            <p class="m_header_container_button_primary_left_big">LES COMPAGNONS</p>                            
+                        </div>
+                        <div class="m_header_container_button_primary_right">
+                            <span class="expand_icon material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </button>
+                    <div class="m_header_container_button_secondary bg_compagnons">
+                        <div class="m_header_container_button_secondary_list">
+                            <a href="">Notre équipe</a>
+                            <a href="">Notre mission</a>
+                            <a href="">Notre histoire</a>
+                            <a href="">Nos projets</a>
+                            <a href="">Nos partenaires</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_header_container_button">
+                    <button class="m_header_container_button_primary bg_forge ">
+                        <div class="m_header_container_button_primary_left">
+                            <p>NOTRE SALLE</p>
+                            <p class="m_header_container_button_primary_left_big">LA FORGE</p>                            
+                        </div>
+                        <div class="m_header_container_button_primary_right">
+                            <span class="expand_icon material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </button>
+                    <div class="m_header_container_button_secondary bg_forge">
+                        <div class="m_header_container_button_secondary_list">
+                            <a href="">Billetterie</a>
+                            <a href="">La forge en action</a>
+                            <a href="">Les événements à venir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_header_container_button">
+                    <button class="m_header_container_button_primary bg_rdv ">
+                        <div class="m_header_container_button_primary_left">
+                            <p>NOTRE FESTIVAL</p>
+                            <p class="m_header_container_button_primary_left_big">RENDEZ-VOUS DES GRANDES GEULES</p>                            
+                        </div>
+                        <div class="m_header_container_button_primary_right">
+                            <span class="expand_icon material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </button>
+                    <div class="m_header_container_button_secondary bg_rdv">
+                        <div class="m_header_container_button_secondary_list">
+                            <a href="">Programmation 2023</a>
+                            <a href="">Lieux du festival</a>
+                            <a href="">Artistes</a>
+                            <a href="">S'impliquer</a>
+                            <div href="m_header_container_button_secondary_list_submenu">
+                                <a class="m_header_container_button_secondary_list_submenu_title" href="">À propos</a>
+                                <div class="m_header_container_button_secondary_list_submenu_container">
+                                        <a>L'Équipe du festival</a>
+                                        <a>Le prix Jocelyn Bérubé</a>
+                                        <a>La Bavarde: La bière officielle</a>
+                                        <a>Vers un festival responsable</a>
+                                        <a>Galerie médias</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_header_container_button">
+                    <button class="m_header_container_button_primary bg_vents ">
+                        <div class="m_header_container_button_primary_left">
+                            <p>NOTRE PROG' ESTIVALE</p>
+                            <p class="m_header_container_button_primary_left_big">VENTS DE PAROLE</p>                            
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="header_container">
+            <div class="top_nav">
+                <img class="top_nav_logo" src="./images/logo.png" alt="Logo Les Compagnons de la mise en valeur du patrimoine vivant">
+                <div class="top_nav_menu">
+                    <a href="https://www.google.com/" target="_blank">Événements à venir</a>
+                    <a href="https://www.google.com/" target="_blank">Acheter des billets</a>
+                    <a href="https://www.google.com/" target="_blank">Contact</a>
+                    <a href="https://www.google.com/" target="_blank">À propos</a>
+                    <a href="https://www.google.com/" target="_blank">FAQ</a> 
+                </div>
+            </div>
+            <div class="bottom_nav_container">
+                <nav class="bottom_nav">
+                    <div class="bottom_nav_menu">
+                        <button class="bottom_nav_menu_btn bg_compagnons compBtn">
+                            <p class="bottom_nav_menu_btn_title">NOTRE ORGANISME</p>
+                            <p class="bottom_nav_menu_btn_title2">LES COMPAGNONS</p>
+                        </button>
+                        <div class="bottom_nav_menu_submenu">
+                            <button class="bottom_nav_menu_submenu_btn bg_compagnons compBtn bottom_nav_menu_submenu_btn_toplist">Notre équipe</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_compagnons compBtn">Notre mission</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_compagnons compBtn">Notre histoire</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_compagnons compBtn">Nos projets</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_compagnons compBtn">Nos partenaires</button>
+                        </div>
+                    </div>
+
+                    <div class="bottom_nav_menu">
+                        <button class="bottom_nav_menu_btn bg_forge forgeBtn">
+                            <p class="bottom_nav_menu_btn_title">NOTRE SALLE</p>
+                            <p class="bottom_nav_menu_btn_title2">LA FORGE À BÉRUBÉ</p>
+                        </button>
+                        <div class="bottom_nav_menu_submenu">
+                            <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn bottom_nav_menu_submenu_btn_toplist">Billetterie</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn">La forge en action</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn">Les événements à venir</button>
+                        </div>
+                    </div>
+
+                    <div class="bottom_nav_menu">
+                        <button class="bottom_nav_menu_btn bg_rdv rdvBtn">
+                            <p class="bottom_nav_menu_btn_title">NOTRE FESTIVAL</p>
+                            <p class="bottom_nav_menu_btn_title2">RENDEZ-VOUS DES GRANDES GEULES</p>
+                        </button>
+                        <div class="bottom_nav_menu_submenu">
+                            <button class="bottom_nav_menu_submenu_btn bg_rdv rdvBtn bottom_nav_menu_submenu_btn_toplist">Programmation 2023</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_rdv rdvBtn">Lieux du festival</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_rdv rdvBtn">Artistes</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_rdv rdvBtn">S'impliquer</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_rdv rdvBtn">
+                                À propos
+                                <ul class="bottom_nav_menu_submenu_btn_list">
+                                    <a href="">L'équipe du festival</a>
+                                    <a href="">Le prix Jocelyn Bérubé</a>
+                                    <a href="">La Bavarde: La bière officielle</a>
+                                    <a href="">Vers un festival responsable</a>
+                                    <a href="">Galerie médias</a>
+                                </ul>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bottom_nav_menu">
+                        <button class="bottom_nav_menu_btn bg_vents ventsBtn">
+                            <p class="bottom_nav_menu_btn_title">NOTRE PROG' ESTIVALE</p>
+                            <p class="bottom_nav_menu_btn_title2">VENTS DE PAROLE</p>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--Banniere-->
+        <div class="main_banner">
+            <div class="rdv_banner">
+                <div class="rdv_banner_title_container">
+                    <h2 class="h1">artistes</h2>
+                </div>
+                <div class="rdv_banner_img_container">
+                    <img src="./images/rdv_banner_img.png" alt="conteur d'histoire">
+                </div>
+            </div>
+        </div>
+        <!-- Contenu du main -->
+
+        <!-- Modal artiste -->
+        <div class="artist_modal_hidden">
+            <div class="artist_modal_container">
+                <div class="artist_mondal_container_upper_content">
+                    <div class="artist_mondal_container_upper_content_img_container">
+                        <img src="./images/photo_artiste_couleur.png" alt="photo d'artiste">
+                    </div>
+                    <div class="artist_mondal_container_upper_content_bio_container">
+                        <div class="artist_mondal_container_upper_bio_container_titles-btn_container">
+                            <div class="artist_mondal_container_upper_bio_container_titles-btn_container_h3-h4">
+                                <h3>Michel Faubert</h3>
+                                <h4>Conteur</h4>
+                            </div>
+                            
+                            <div class="artist_mondal_container_upper_bio_container_titles-btn_container_closeBtn">
+                                <button class="hide_modal_btn"><i class="bi bi-x-lg"></i></button>
+                            </div>
+                        </div>
+                        <h3>Biographie</h3>
+                        <hr>
+                        <div class="artist_mondal_container_upper_content_bio_container_resume">
+                            <p>Get scared by sudden appearance of cucumber meow meow we are 3 small kittens sleeping most of our time, we are around 15 weeks old i think, i donâ€™t know i canâ€™t count, yet run as fast as i can into another room for no reason yet i like big cats and i can not lie and prow?? ew dog you drink from the toilet, yum yum warm milk hotter pls, ouch too hot stare out cat door then go back inside eat and than sleep on your face. Need to check on human, have not seen in an hour might be dead oh look, human is alive, hiss at human, feed me naughty running cat, i heard this rumor where the humans are our owners, pfft, what do they know?! yet i cry and cry and cry unless you pet me, and then maybe i cry just for fun steal the warm chair right after you get up. Get scared by doggo also cucumerro . Sleep all day whilst slave is at work, play all night whilst slave is sleeping really likes hummus where is it? </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal_carousel">
+                    <div id="wrapper">
+                        <div id="carousel">
+                            <div id="content">
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_upper_content">
+                                        <i class="bi bi-calendar-date"></i>
+                                        <h3>Grande veillée du conte</h3>
+                                    </div>
+                                    <div class="item_lower_content">
+                                        <p class="item_lower_content_date">Samedi 2 octobre, 20h</p>
+                                        <p class="item_lower_content_location">Forge à Bérubé</p>
+                                        <div class="item_lower_content_link">
+                                            <a href="#">Acheter des billets ➔</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <button id="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+                        <button id="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Main artist content -->
+        <div class="artistes_main">
+            <div class="artistes_main_white_container">
+                <p class="artistes_main_white_container_intro">Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                <div class="artistes_main_white_container_search-options_container">
+                    <select aria-label="champ de sélection par type de discipline" class="artistes_main_white_container_search-options_container_select">
+                            <option value="" disabled selected>Filtrer par discipline</option>
+                            <option value="conte">Conte</option>
+                            <option value="musique">Musique</option>
+                            <option value="poesie">Poésie</option>
+                            <option value="humour">Humour</option>
+                    </select>
+                    <input type="search" aria-label="champ de recherche" name="artist_search-input" class="artistes_main_white_container_search-options_container_search-input" placeholder="🔍 Recherche">
+                </div>
+                <div class="artistes_main_cards-section">
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="artist_card">
+                        <img src="./images/photo_artiste.png" alt="photo d'artiste" class="card_background_photo">
+                        <div class="artistes_card_green-filter"></div>
+                        <div class="artist_card_overlay">
+                            <h3>Michel Faubert</h3>
+                            <h4>Conteur</h4>
+                            <div class="artist_card_resume">
+                                <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+                            </div>
+                            <a href="" class="artist_card_voirPlus">Voir plus ➔</a>
+                            <button class="artist_card_calendar">
+                                <i class="bi bi-calendar-date"></i> 
+                                <p>Où et quand voir cet·te artiste ?</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="showMore_container">
+                    <button class="showMore_btn">charger plus</button>
+                </div>
+            </div>
+        </div>
+  
+        
+    </main>
+
+    <footer>
+        <!-- bannière infolettre -->
+        <div class="infolettre_banner">
+            <div class="infolettre_banner_content_container">
+                <div class="infolettre_banner_content_container_left_content">
+                    <img src="./images/infolettre_left_img.png" alt="personnages">
+                </div>
+                <div class="infolettre_banner_content_container_mid_content">
+                    <h3>NE MANQUEZ AUCUNE NOUVELLE!</h3>
+                    <h4>Abonnez-vous à notre infolettre!</h4>
+                    <div class="btn_container">
+                        <button class="sub_btn btn-cta white2black"><span class="btn-default">s'abonner</span></button>
+                    </div>
+                </div>
+                <div class="infolettre_banner_content_container_right_content">
+                    <img src="./images/infolettre_right_img.png" alt="Cheval">
+                </div>
+            </div>
+        </div>
+        <!-- bannière festival responsable -->
+        <div class="eco_banner">
+            <div class="eco_banner_container">
+                <h3>Vers un festival responsable</h3>
+                <p class="textblock">Il est vitale pour nous de respecter nos valeurs dans chaque sphère de notre organisme. Malheureusement, le monde de l’événementiel est reputé pour son impact environnemental. C’est pourquoi nous avons créer une politique pour assurer que notre festival est le plus responsable possible, tant au plan environnemental qu’humain. </p>
+                <a class="btn-link no-bg-white" href="#">En savoir plus ➔</a>
+            </div>
+        </div>
+        <!-- footer navigation -->
+        <div class="footer_nav">
+            <!-- footer navigation menu -->
+            <div class="footer_nav_left_content">
+                <div class="footer_nav_left_content_left_column">
+                    <div class="footer_nav_left_content_left_column_compagnons_nav">
+                        <div class="footer_green_title">
+                            <h4>LES COMPAGNONS</h4>
+                        </div>
+                        <ul>
+                            <li><a href='#'>NOTRE ÉQUIPE</a></li>
+                            <li><a href='#'>NOTRE MISSION</a></li>
+                            <li><a href='#'>NOTRE HISTOIRE</a></li>
+                            <li><a href='#'>NOS PARTENAIRES</a></li>
+                            <li><a href='#'>NOS PROJETS</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_left_content_left_column_forge_nav">
+                        <div class="footer_green_title">
+                            <h4>LES FORGE À BÉRUBÉ</h4>
+                        </div>
+                        <ul>
+                            <li><a href='#'>LA FORGE EN ACTION</a></li>
+                            <li><a href='#'>ÉVÉNEMENTS À VENIR</a></li>
+                            <li><a href='#'>BILLETERIE</a></li>
+                            <li><a href='#'>INFORMATIONS PRATIQUES</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_left_content_left_column_ventDeParole_nav">
+                        <div class="footer_green_title">
+                            <h4>VENTS DE PAROLES</h4>
+                        </div>
+                        <div class="footer_nav_single_link">
+                            <a href='#'>PRÉSENTATIONS À VENIR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav_left_content_right_column">
+                    <div class="footer_nav_left_content_right_column_grandesGeules_nav">
+                        <div class="footer_green_title">
+                            <h4>RENDEZ-VOUS DES GRANDES GUEULES</h4>
+                        </div>
+                        <div class="footer_nav_single_link">
+                            <a href="#">PROGRAMMATION 2023</a>
+                        </div>
+                    </div>
+                    <div class="footer_nav_left_content_right_column_impliquer_nav">
+                        <div class="footer_green_title">
+                            <h4>S'IMPLIQUER</h4>
+                        </div>
+                        <ul>
+                            <li><a href="#">Devenir bénévole</a></li>
+                            <li><a href="#">S'inscrire au concours de la plus grande menterie</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="footer_nav_left_content_right_column_fest_artists_nav_container">
+                        <a href="#">LIEUX DU FESTIVAL</a>
+                        <a href="#">ARTISTES</a>
+                    </div>
+                    <div class="footer_nav_left_content_right_column_aPropos_nav">
+                        <div class="footer_green_title">
+                            <h4>À PROPOS</h4>
+                        </div>
+                        <ul>
+                            <li><a href='#'>L'équipe du festival</a></li>
+                            <li><a href='#'>Prix Jocelyn Bérubé</a></li>
+                            <li><a href='#'>La Bavarde</a></li>
+                            <li><a href='#'>Vers un festival responsable</a></li>
+                            <li><a href='#'>Galerie média</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer contact et réseau -->
+            <div class="footer_nav_right_content">
+                <div class="footer_nav_right_content_contact_infos">
+                    <div class="btn_container">
+                        <button class="footer_nav_right_content_contact_infos_contact_btn btn-cta alpha2pink">nous contacter</button>
+                    </div>
+                    <div class="footer_nav_right_content_contact_infos_address_tel_email_container">
+                        <p><i class="bi bi-geo-alt-fill"></i>  363 Rue Vézina, Trois-Pistoles, QC G0L 4K0</p>
+                        <p><i class="bi bi-telephone-fill"></i>  (418) 857-3248</p>
+                        <p><i class="bi bi-envelope-at"></i>  compagnonspatrimoinevivant@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer_nav_right_content_reseaux">
+                    <h3>SUIVEZ-NOUS!</h3>
+                    <div class="footer_nav_right_content_reseaux_footer_icons">
+                        <img src='./images/ici.png' alt='ici'> <a href='#'><i class="bi bi-facebook" aria-label="icone facebook"></i></a>
+                        <a href='#'><i class="bi bi-instagram" aria-label="icone instagram"></i></a><img src='./images/et-ici.png' alt='et-ici'>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

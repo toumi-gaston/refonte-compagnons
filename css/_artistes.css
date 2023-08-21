@@ -3,6 +3,12 @@ body{
     padding: 0;
 }
 
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
 
 :root {
     --rose: rgb(164, 83, 83);
@@ -162,6 +168,11 @@ body{
     transform: translate(-50%, -50%);
 }
 
+#prev:hover, #next:hover{
+    border: 2px solid black;
+}
+
+
 #content {
     display: grid;
     grid-gap: 10px;
@@ -302,6 +313,7 @@ body{
     flex-direction: column;
     height: 75px;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .artistes_main_white_container_search-options_container_search-input,
@@ -326,6 +338,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
@@ -497,6 +510,7 @@ body{
     .artistes_main_white_container_search-options_container{
         flex-direction: row;
         height: 30px;
+        width: 80%;
     }
 
     .artistes_main_white_container_search-options_container_search-input,
@@ -540,7 +554,7 @@ body{
     /* --- artistes section --- */
 
     .artistes_main_white_container_search-options_container{
-        width: 95%;
+        width: 80%;
     }
 
     .artistes_main_white_container_search-options_container_search-input,
@@ -584,10 +598,8 @@ body{
 }
 
 @media screen and (min-width: 1200px){
-    .artistes_main_white_container {
-        margin: 75px auto;
-        width: 90%;
-        padding: 50px 20px;
+    .artistes_main_white_container_search-options_container{
+        width: 88%;
     }
 
 }
@@ -611,10 +623,8 @@ body{
 }
 
 @media screen and (min-width: 1599px) {
-    .artistes_main_white_container {
-        margin: 100px auto;
-        padding: 40px 80px;
-        max-width: 1200px;
+    .artistes_main_white_container_search-options_container{
+        width: 78%;
     }
 }
 

@@ -23,9 +23,6 @@ const calendarBtns = document.querySelectorAll('.artist_card_calendar');
 const hideModalBtn = document.querySelector('.hide_modal_btn');
 let artistModal = document.querySelector('.artist_modal_hidden');
 
-console.log(document.body);
-
-
 
 function showArtistModal(){
     artistModal.classList.add('artist_modal_visible');
@@ -63,7 +60,7 @@ next.addEventListener("click", e => {
     if (carousel.scrollWidth !== 0) {
     prev.style.display = "flex";
     }
-    if (content.scrollWidth - width - gap <= carousel.scrollLeft + 400) {
+    if (content.scrollWidth - width - gap <= carousel.scrollLeft + 400 ) {
     next.style.display = "none";
     }
 });
@@ -77,5 +74,7 @@ prev.addEventListener("click", e => {
     }
 });
 
+
 let width = carousel.offsetWidth;
 window.addEventListener("resize", e => (width = carousel.offsetWidth));
+

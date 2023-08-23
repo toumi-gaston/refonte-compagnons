@@ -1,9 +1,4 @@
-.main_content{
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    
-}
+
 
 .simpliquer_intro, .simpliquer_benevole_textblock, .simpliquer_menterie_textblock, .simpliquer_menterie_sous-titre, .simpliquer_menterie_accordion_panel{
     padding: 0 20px;
@@ -132,13 +127,7 @@
 }
 
 @media screen and (min-width: 1500px) {
-    .main_content{
-        margin: 75px auto;
-        width: 90%;
-        padding: 50px 20px;
-        /*height: 2400px;*/
-    }
-    
+
     .simpliquer_intro {
         width: 100%;
     }  
@@ -198,12 +187,13 @@
         grid-template-rows: 1fr 175px;
         background-color: var(--festival);
         color: white;
-        width: 80vw;
+        width: 1400px;
+        max-width: 1400px;
         display:block;
         margin: 0 auto;
         position: relative;
+        left: -150px;
         top: -250px;
-        left: -100px;
         padding: 50px;
     }
 
@@ -225,8 +215,8 @@
         display: block;
         position: relative;
         height: 500px;
-        top:-700px;
-        right: -800px;
+        top: -200px;
+        right: -200px; 
     }
 
 }

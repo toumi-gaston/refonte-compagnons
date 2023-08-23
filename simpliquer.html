@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Les Compagnons - S'impliquer</title>
 </head>
 <body>
     <header>
@@ -210,135 +210,156 @@
                 </p>
             </section>
             <div class="simpliquer_benevole_modale">
+                <div class="simpliquer_benevole_modale_closebtn-container">
+                    <button class="simpliquer_benevole_modale_closebtn" type="button" aria-label="Fermer"><span class="material-symbols-outlined">
+                        close
+                        </span></button>
+                </div>
                 <div class="simpliquer_benevole_modale_title_container">
-                    <h5 class="simpliquer_benevole_modale_title h3">Devenir</h5>
-                    <h5 class="simpliquer_benevole_modale_title h3-cursive">bénévole</h5>
+                    <h5 class="simpliquer_benevole_modale_title">Devenir</h5>
+                    <h5 class="simpliquer_benevole_modale_title-cursive">bénévole</h5>
                 </div>
                 <p class="simpliquer_benevole_modale_intro textblock">
                     Envie de vous impliquer pour la mise en valeur du patrimoine vivant de Trois-Pistoles? Remplissez le formulaire suivant pour nous le faire savoir et un membre de notre équipe vous contactera sous peu!
                 </p>
-                
-                <form class="simpliquer_benevole_modale_form" method="get">
-                    <fieldset class="form_fieldset">
-                        <label class="label_prenom" for="prenom">Prénom</label>
-                        <input type="text" id="prenom">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <label class="label_nom" for="nom">Nom</label>
-                        <input type="text" id="nom">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <label class="label_courriel" for="courriel">Courriel</label>
-                        <input type="email" id="courriel">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <label class="label_telephone" for="tel">Téléphone</label>
-                        <input type="tel" id="tel">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <label class="label_ville" for="ville">Ville de résidence</label>
-                        <input type="text" id="ville">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <legend>J'utilise le ou les pronoms...</legend>
-                        <label class="label_il" for="il">Il</label>
-                        <input type="checkbox" id="il">
-                        <label class="label_elle" for="elle">Elle</label>
-                        <input type="checkbox" id="elle">
-                        <label class="label_iel" for="iel">Iel</label>
-                        <input type="checkbox" id="iel">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <legend>J'ai déjà été bénévole au festival </legend>
-                        <label class="label_bene_oui" for="bene_oui">Oui</label>
-                        <input type="radio" id="bene_oui">
-                        <label class="label_bene_non" for="bene_non">Non</label>
-                        <input type="radio" id="bene_non">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <legend>J’ai accès à un véhicule et je pourrais l’utiliser dans le cadre de mon rôle de bénévole? (avec remboursement du kilométrage)</legend>
-                        <label class="label_auto_oui" for="auto_oui">Oui</label>
-                        <input type="radio" id="auto_oui">
-                        <label class="label_auto_non" for="auto_non">Non</label>
-                        <input type="radio" id="auto_non">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <legend>J’ai un téléphone intelligent et je pourrais l’utiliser dans le cadre de mon rôle de bénévole?</legend>
-                        <label class="label_tel_oui" for="tel_oui">Oui</label>
-                        <input type="radio" id="tel_oui">
-                        <label class="label_tel_non" for="tel_non">Non</label>
-                        <input type="radio" id="tel_non">
-                    </fieldset>
-                    <fieldset class="form_fieldset tableau-dispo">
-                        <legend>Disponibilités</legend>
-                        <label class="30sept">30 sept</label>
-                        <label class="1oct">1 oct</label>
-                        <label class="2oct">2 oct</label>
-                        <label class="3oct">3 oct</label>
-                        <label class="4oct">4 oct</label>
-                        <label class="5oct">5 oct</label>
-                        <label class="6oct">6 oct</label>
-                        <label class="7oct">7 oct</label>
-                        <label class="8oct">8 oct</label>
-                        <label class="9oct">9 oct</label>
-                        <label class="AM">AM</label>
-                        <label class="PM">PM</label>
-                        <label class="soir">Soir</label>
-                        <input class="30AM" type="checkbox" value="30 sept AM">
-                        <input class="30PM" type="checkbox" value="30 sept PM">
-                        <input class="30S" type="checkbox" value="30 sept soir">
-                        <input class="1AM" type="checkbox" value="1 oct AM">
-                        <input class="1PM" type="checkbox" value="1 oct PM">
-                        <input class="1S" type="checkbox" value="1 oct soir">
-                        <input class="2AM" type="checkbox" value="2 oct AM">
-                        <input class="2PM" type="checkbox" value="2 oct PM">
-                        <input class="2S" type="checkbox" value="2 oct soir">
-                        <input class="3AM" type="checkbox" value="3 oct AM">
-                        <input class="3PM" type="checkbox" value="3 oct PM">
-                        <input class="3S" type="checkbox" value="3 oct soir">
-                        <input class="4AM" type="checkbox" value="4 oct AM">
-                        <input class="4PM" type="checkbox" value="4 oct PM">
-                        <input class="4S" type="checkbox" value="4 oct soir">
-                        <input class="5AM" type="checkbox" value="5 oct AM">
-                        <input class="5PM" type="checkbox" value="5 oct PM">
-                        <input class="5S" type="checkbox" value="5 oct soir">
-                        <input class="6AM" type="checkbox" value="6 oct AM">
-                        <input class="6PM" type="checkbox" value="6 oct PM">
-                        <input class="6S" type="checkbox" value="6 oct soir">
-                        <input class="7AM" type="checkbox" value="7 oct AM">
-                        <input class="7PM" type="checkbox" value="7 oct PM">
-                        <input class="7S" type="checkbox" value="7 oct soir">
-                        <input class="8AM" type="checkbox" value="8 oct AM">
-                        <input class="8PM" type="checkbox" value="8 oct PM">
-                        <input class="8S" type="checkbox" value="8 oct soir">
-                        <input class="9AM" type="checkbox" value="9 oct AM">
-                        <input class="9PM" type="checkbox" value="9 oct PM">
-                        <input class="9S" type="checkbox" value="9 oct soir">
-                    </fieldset>
-                    <fieldset class="form_fieldset">
-                        <legend>Quel genre de bénévolat vous intéresse?</legend>
-                        <input type="checkbox" id="affichage">
-                        <label class="choix-affichage" for="affichage">Affichage avant le festival</label>
-                        <input type="checkbox" id="billetterie">
-                        <label class="choix-billetterie" for="billetterie">Accueil et billetterie lors des représentations</label>
-                        <input type="checkbox" id="placier">
-                        <label class="choix-placier" for="placier">Placier·ère lors des représentations</label>
-                        <input type="checkbox" id="bar">
-                        <label class="choix-bar" for="bar">Service de bar lors des représentations</label>
-                        <input type="checkbox" id="sondage">
-                        <label class="choix-sondage" for="sondage">Sondages auprès du public lors des représentations</label>
-                        <input type="checkbox" id="transport">
-                        <label class="choix-transport" for="transport">Transport d’artistes lors des spectacles des Rendez-vous s’épivarde</label>
-                        <input type="checkbox" id="bar-cafe">
-                        <label class="choix-bar-cafe" for="bar-cafe">Service de bar au Café des Grandes Gueules</label>
-                        <input type="checkbox" id="repas-cafe">
-                        <label class="choix-repas-cafe" for="repas-cafe">Préposé·e aux repas au Café des Grandes Gueules</label>
-                        <input type="checkbox" id="NA">
-                        <label class="choix-NA" for="NA">Peu importe, si je peux être utile!</label>
-                    </fieldset>
-                    <fieldset></fieldset>
-
-                </form>
+                    <form class="simpliquer_benevole_modale_form" method="get" id="form-simpliquer" action="" target="_blank" autocomplete="on">
+                        <fieldset class="form_fieldset">
+                            <label class="label_prenom" for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" required>
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <label class="label_nom" for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <label class="label_courriel" for="courriel">Courriel</label>
+                            <input type="email" id="courriel" required name="email">
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <label class="label_telephone" for="tel">Téléphone</label>
+                            <input type="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <label class="label_ville" for="ville">Ville de résidence</label>
+                            <input type="text" id="ville" name="ville-de-residence">
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <legend>J'utilise le ou les pronoms...</legend>
+                            <label class="label_il checkbox-container" for="il">Il
+                                <input type="checkbox" id="il" name="Il">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="label_elle checkbox-container" for="elle">Elle
+                                <input type="checkbox" id="elle" name="Elle">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="label_iel checkbox-container" for="iel">Iel
+                                <input type="checkbox" id="iel" name="Iel">
+                                <span class="checkmark"></span>
+                            </label>
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <legend>J'ai déjà été bénévole au festival </legend>
+                            <label class="label_bene_oui" for="bene_oui">Oui</label>
+                            <input type="radio" id="bene_oui" value="oui" name="Benevole">
+                            <label class="label_bene_non" for="bene_non">Non</label>
+                            <input type="radio" id="bene_non" value="non" name="Benevole">
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <legend>J’ai accès à un véhicule et je pourrais l’utiliser dans le cadre de mon rôle de bénévole? (avec remboursement du kilométrage)</legend>
+                            <label class="label_auto_oui" for="auto_oui">Oui</label>
+                            <input type="radio" id="auto_oui" value="oui" name="Auto" >
+                            <label class="label_auto_non" for="auto_non">Non</label>
+                            <input type="radio" id="auto_non" value="non" name="Auto">
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <legend>J’ai un téléphone intelligent et je pourrais l’utiliser dans le cadre de mon rôle de bénévole?</legend>
+                            <label class="label_tel_oui" for="tel_oui">Oui</label>
+                            <input type="radio" id="tel_oui" value="oui" name="Telephone">
+                            <label class="label_tel_non" for="tel_non">Non</label>
+                            <input type="radio" id="tel_non" value="non" name="Telephone">
+                        </fieldset>
+                        <fieldset class="form_fieldset tableau-dispo">
+                            <legend>Disponibilités</legend>
+                            <label class="30sept">30 sept</label>
+                            <label class="1oct">1 oct</label>
+                            <label class="2oct">2 oct</label>
+                            <label class="3oct">3 oct</label>
+                            <label class="4oct">4 oct</label>
+                            <label class="5oct">5 oct</label>
+                            <label class="6oct">6 oct</label>
+                            <label class="7oct">7 oct</label>
+                            <label class="8oct">8 oct</label>
+                            <label class="9oct">9 oct</label>
+                            <label class="AM">AM</label>
+                            <label class="PM">PM</label>
+                            <label class="soir">Soir</label>
+                            <input class="30AM" type="checkbox" value="30 sept AM" name="30 sept AM">
+                            <input class="30PM" type="checkbox" value="30 sept PM" name=" 30 sept PM">
+                            <input class="30S" type="checkbox" value="30 sept soir" name="30 sept soir">
+                            <input class="1AM" type="checkbox" value="1 oct AM" name="1 oct AM">
+                            <input class="1PM" type="checkbox" value="1 oct PM" name="1 oct PM">
+                            <input class="1S" type="checkbox" value="1 oct soir" name="1 oct soir">
+                            <input class="2AM" type="checkbox" value="2 oct AM" name="2 oct AM">
+                            <input class="2PM" type="checkbox" value="2 oct PM" name="2 oct PM">
+                            <input class="2S" type="checkbox" value="2 oct soir" name="2 oct soir">
+                            <input class="3AM" type="checkbox" value="3 oct AM" name="3 oct AM">
+                            <input class="3PM" type="checkbox" value="3 oct PM" name="3 oct PM">
+                            <input class="3S" type="checkbox" value="3 oct soir" name="3 oct soir">
+                            <input class="4AM" type="checkbox" value="4 oct AM" name="4 oct AM">
+                            <input class="4PM" type="checkbox" value="4 oct PM" name="4 oct PM">
+                            <input class="4S" type="checkbox" value="4 oct soir" name="4 oct soir">
+                            <input class="5AM" type="checkbox" value="5 oct AM" name="5 oct AM">
+                            <input class="5PM" type="checkbox" value="5 oct PM" name="5 oct PM">
+                            <input class="5S" type="checkbox" value="5 oct soir" name="5 oct soir">
+                            <input class="6AM" type="checkbox" value="6 oct AM" name="6 oct AM">
+                            <input class="6PM" type="checkbox" value="6 oct PM" name="6 oct PM">
+                            <input class="6S" type="checkbox" value="6 oct soir" name="6 oct soir">
+                            <input class="7AM" type="checkbox" value="7 oct AM" name="7 oct AM">
+                            <input class="7PM" type="checkbox" value="7 oct PM" name="7 oct PM">
+                            <input class="7S" type="checkbox" value="7 oct soir" name="7 oct soir">
+                            <input class="8AM" type="checkbox" value="8 oct AM" name="8 oct AM">
+                            <input class="8PM" type="checkbox" value="8 oct PM" name="8 oct PM">
+                            <input class="8S" type="checkbox" value="8 oct soir" name="8 oct soir">
+                            <input class="9AM" type="checkbox" value="9 oct AM" name="9 oct AM">
+                            <input class="9PM" type="checkbox" value="9 oct PM" name="9 oct PM">
+                            <input class="9S" type="checkbox" value="9 oct soir" name="9 oct soir">
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <legend>Quel genre de bénévolat vous intéresse?</legend>
+                            <input type="checkbox" id="affichage" name="affichage">
+                            <label class="choix-affichage" for="affichage">Affichage avant le festival</label>
+                            <input type="checkbox" id="billetterie" name="billetterie">
+                            <label class="choix-billetterie" for="billetterie">Accueil et billetterie lors des représentations</label>
+                            <input type="checkbox" id="placier" name="placier">
+                            <label class="choix-placier" for="placier">Placier·ère lors des représentations</label>
+                            <input type="checkbox" id="bar" name="bar">
+                            <label class="choix-bar" for="bar">Service de bar lors des représentations</label>
+                            <input type="checkbox" id="sondage" name="sondage">
+                            <label class="choix-sondage" for="sondage">Sondages auprès du public lors des représentations</label>
+                            <input type="checkbox" id="transport" id="transport">
+                            <label class="choix-transport" for="transport">Transport d’artistes lors des spectacles des Rendez-vous s’épivarde</label>
+                            <input type="checkbox" id="bar-cafe" name="bar-cafe">
+                            <label class="choix-bar-cafe" for="bar-cafe">Service de bar au Café des Grandes Gueules</label>
+                            <input type="checkbox" id="repas-cafe" name="repas-cafe">
+                            <label class="choix-repas-cafe" for="repas-cafe">Préposé·e aux repas au Café des Grandes Gueules</label>
+                            <input type="checkbox" id="NA" name="NA">
+                            <label class="choix-NA" for="NA">Peu importe, si je peux être utile!</label>
+                        </fieldset>
+                        <fieldset class="form_fieldset">
+                            <input type="checkbox" id="consentement" required name="consentement">
+                            <label class="consentement-label" for="consentement" >J’accepte que mes informations soient transmises aux Compagnons et
+                                je comprends que ces informations resteront confidentielles.</label>
+                            <input type="checkbox" id="infolettre" name="infolettre">
+                            <label class="infolettre-label" for="infolettre">Je souhaite être ajouté·e à la liste d’envoie de l’infolettre des Compagnons.</label>
+                        </fieldset>
+                        <div class="form_button-container">
+                            <button class="btn-default black2blue" type="button" form="form-simpliquer" value="submit"><span class="btn-default">soumettre</span></button>
+                        </div>
+                    </form>
+                    <div class="simpliquer_benevole_modale_confirmation">
+                        <p>Merci pour votre inscription, notre équipe vous contactera sous peu!</p>
+                    </div>
                 <div class="filter-modal"></div>
             </div>
             <section class="simpliquer_benevole">
@@ -416,8 +437,8 @@
                     <li class="aside_gagnants_liste_item textblock">2013 Dominic Lapointe</li>
                     <li class="aside_gagnants_liste_item textblock">2012: Jérôme Bérubé</li>
                 </ul>
+                <img class="simpliquer_menterie_img" src="./images/trophee-menterie.png" alt="Trophée du concours de la plus grande menterie">
             </div>
-            <img class="simpliquer_menterie_img" src="./images/trophee-menterie.png" alt="Trophée du concours de la plus grande menterie">
         </div>
         
     </main>

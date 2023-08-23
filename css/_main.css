@@ -9,7 +9,7 @@
 @media screen and (min-width: 1200px) {
     body {
         background-image: url('../images/background_main.png');
-        
+        background-size: cover;
     }
     .main_content{
         margin: 75px auto;

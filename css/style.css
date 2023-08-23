@@ -8,13 +8,6 @@
 @import url(_simpliquer.css);
 @import url(_simpliquer-form.css);
 @import url(_artistes.css);
-
-
-
-@import url(_programmation.css);
-
-@import url(_prix.css);
-@import url(_nous-contacter.css);
-
-@import url(_accordion.css);
-@import url(_faq.css);
+@import url(_accueil_rdv.css);
+@import url(_equipe_festival.css);
+@import url(_accueil.css);

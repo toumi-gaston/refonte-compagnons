@@ -216,7 +216,7 @@ body{
 
 /* --- Bannière festival responsable --- */
 .eco_banner{
-    height: 450px;
+    height: 500px;
     background-image: url(../images/eco_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@ body{
 }
 
 .eco_banner_container{
-    height: 80%;
+    height: 90%;
     width: 65%;
     background-color: var(--rdv);
     color: white;
@@ -239,10 +239,12 @@ body{
     padding: 0 20px 20px 20px;
     text-align: center;
     border-radius: 4px;
+    margin: 20px 0px;
 }
 
 .eco_banner_container h3{
     font-size: 18px;
+    margin: 0;
 }
 
 .eco_banner_container p{
@@ -536,6 +538,8 @@ body{
         width: 50%;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
         padding-left: 15px;
     }
 

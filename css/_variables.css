@@ -1,6 +1,9 @@
 :root{
 
 /*COULEURS DE BASES*/
+    --current-section-primary: var(--festival);
+    --current-section-secondary: var(--vert-forms);
+    --current-section-tertiary: var(--vert-alpha);
 
     --compagnons: #7c2013;
     --forge: #8A4A46;
@@ -20,6 +23,7 @@
     --forge-alpha: rgba(138, 74, 70, 0.6);
     --festival-alpha: rgba(13, 51, 46, 0.6);
     --vents-alpha: rgba(25, 97, 89, 0.6);
+    --vert-forms: rgba(13, 51, 46, 0.25);
 
 /*BOX-SHADOW*/
     --shadow-btn-cta: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); 

@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/becmaweb/compagnons.becmaweb.ca/
-    - /bin/cp -R /home/becmaweb/repositories/compagnons $DEPLOYPATH
+    - /bin/cp -R /home/becmaweb/repositories/compagnons/* $DEPLOYPATH

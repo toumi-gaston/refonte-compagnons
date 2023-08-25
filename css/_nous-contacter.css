@@ -16,23 +16,17 @@
     margin: 0;
 }
 
+
 /* ------------ GOOGLE MAP ---------*/
 .contact_coordonnees_map > iframe {
     height: 200px;
     width: 100%;
 }
 
-
-
-
-
-
-
 .contact_reseaux_container {
     display: flex;
     justify-content: center;
 }
-
 
 .contact_reseaux_cheval > img {
     width: 200px;
@@ -45,8 +39,6 @@
 .contact_reseaux_insta > svg, .contact_reseaux_fb > svg {
     width: 40px;
 }
-
-
 
 
 @media screen and (min-width: 700px) {

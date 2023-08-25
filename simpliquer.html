@@ -244,14 +244,18 @@
                         <legend>J'utilise le ou les pronoms...</legend>
                         <div class="checkbox">
                             <input type="checkbox" id="il" name="il">
-                            <label class="label_il" for="il">Il</label>    
+                            <label for="il">Il</label>    
                         </div>
-
-                        <label class="label_elle" for="elle">Elle</label>
-                        <input type="checkbox" id="elle">
-                        <label class="label_iel" for="iel">Iel</label>
-                        <input type="checkbox" id="iel">
+                        <div class="checkbox">
+                            <input type="checkbox" id="elle" name="elle">
+                            <label for="elle">Elle</label>    
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="iel" name="iel">
+                            <label for="iel">Iel</label>    
+                        </div>
                     </fieldset>
+                    <!--RADIO BUTTON-->
                     <fieldset class="form_fieldset">
                         <legend>J'ai déjà été bénévole au festival </legend>
                         <label class="label_bene_oui" for="bene_oui">Oui</label>
@@ -273,51 +277,237 @@
                         <label class="label_tel_non" for="tel_non">Non</label>
                         <input type="radio" id="tel_non">
                     </fieldset>
-                    <fieldset class="form_fieldset tableau-dispo">
+                    <!--TABLEAU DISPONIBILITES-->
+                    <fieldset class="form_fieldset ">
                         <legend>Disponibilités</legend>
-                        <label class="30sept">30 sept</label>
-                        <label class="1oct">1 oct</label>
-                        <label class="2oct">2 oct</label>
-                        <label class="3oct">3 oct</label>
-                        <label class="4oct">4 oct</label>
-                        <label class="5oct">5 oct</label>
-                        <label class="6oct">6 oct</label>
-                        <label class="7oct">7 oct</label>
-                        <label class="8oct">8 oct</label>
-                        <label class="9oct">9 oct</label>
-                        <label class="AM">AM</label>
-                        <label class="PM">PM</label>
-                        <label class="soir">Soir</label>
-                        <input class="30AM" type="checkbox" value="30 sept AM">
-                        <input class="30PM" type="checkbox" value="30 sept PM">
-                        <input class="30S" type="checkbox" value="30 sept soir">
-                        <input class="1AM" type="checkbox" value="1 oct AM">
-                        <input class="1PM" type="checkbox" value="1 oct PM">
-                        <input class="1S" type="checkbox" value="1 oct soir">
-                        <input class="2AM" type="checkbox" value="2 oct AM">
-                        <input class="2PM" type="checkbox" value="2 oct PM">
-                        <input class="2S" type="checkbox" value="2 oct soir">
-                        <input class="3AM" type="checkbox" value="3 oct AM">
-                        <input class="3PM" type="checkbox" value="3 oct PM">
-                        <input class="3S" type="checkbox" value="3 oct soir">
-                        <input class="4AM" type="checkbox" value="4 oct AM">
-                        <input class="4PM" type="checkbox" value="4 oct PM">
-                        <input class="4S" type="checkbox" value="4 oct soir">
-                        <input class="5AM" type="checkbox" value="5 oct AM">
-                        <input class="5PM" type="checkbox" value="5 oct PM">
-                        <input class="5S" type="checkbox" value="5 oct soir">
-                        <input class="6AM" type="checkbox" value="6 oct AM">
-                        <input class="6PM" type="checkbox" value="6 oct PM">
-                        <input class="6S" type="checkbox" value="6 oct soir">
-                        <input class="7AM" type="checkbox" value="7 oct AM">
-                        <input class="7PM" type="checkbox" value="7 oct PM">
-                        <input class="7S" type="checkbox" value="7 oct soir">
-                        <input class="8AM" type="checkbox" value="8 oct AM">
-                        <input class="8PM" type="checkbox" value="8 oct PM">
-                        <input class="8S" type="checkbox" value="8 oct soir">
-                        <input class="9AM" type="checkbox" value="9 oct AM">
-                        <input class="9PM" type="checkbox" value="9 oct PM">
-                        <input class="9S" type="checkbox" value="9 oct soir">
+
+                        <!--Label du tableau DATE-->
+                        <div class="tableau-dispo">
+                            <div class="coin-vide"></div>
+                            <div class="legend-date jour1">
+                                <span>30 sept</span>
+                            </div>
+                            <div class="legend-date jour2">
+                                <span>1 oct</span>
+                            </div>
+                            <div class="legend-date jour3">
+                                <span>2 oct</span>
+                            </div>
+                            <div class="legend-date jour4">
+                                <span>3 oct</span>
+                            </div>
+                            <div class="legend-date jour5">
+                                <span>4 oct</span>
+                            </div>
+                            <div class="legend-date jour6">
+                                <span>5 oct</span>
+                            </div>
+                            <div class="legend-date jour7">
+                                <span>6 oct</span>
+                            </div>
+                            <div class="legend-date jour8">
+                                <span>7 oct</span>
+                            </div>
+                            <div class="legend-date jour9">
+                                <span>8 oct</span>
+                            </div>
+                            <div class="legend-date jour10">
+                                <span>9 oct</span>
+                            </div>
+                            <!--label du tableau HEURE-->    
+                            <div class="legend-heure AM">
+                                 <span>AM</span>
+                            </div>
+                            <div class="legend-heure PM">
+                                 <span >PM</span>
+                            </div>
+                            <div class="legend-heure soir">
+                                 <span>Soir</span>
+                             </div>
+                            <!--CHECKBOXES DU TABLEAU-->
+                            <div class="jour1-am checkbox-dispo">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="30sept-AM" name="30 sept AM" aria-labelledby="30 septembre AM">
+                                    <label for="30sept-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour1-pm">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="30sept-PM" name="30 sept PM" aria-labelledby="30 septembre PM">
+                                    <label for="30sept-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour1-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="30sept-soir" name="30 sept soir" aria-labelledby="30 septembre soir">
+                                    <label for="30sept-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour2-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="1oct-AM" name="1er oct AM" aria-labelledby="1er octobre AM">
+                                    <label for="1oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour2-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="1oct-PM" name="1er oct PM" aria-labelledby="1er octobre PM">
+                                    <label for="1oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour2-soir">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="1oct-soir" name="1er oct soir" aria-labelledby="1er octobre soir">
+                                    <label for="1oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour3-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="2oct-AM" name="2 oct AM" aria-labelledby="2 octobre AM">
+                                    <label for="2oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour3-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="2oct-PM" name="2 oct PM" aria-labelledby="2 octobre PM">
+                                    <label for="2oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour3-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="2oct-soir" name="2 oct soir" aria-labelledby="2 octobre soir">
+                                    <label for="2oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour4-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="3oct-AM" name="3 oct AM" aria-labelledby="3 octobre AM">
+                                    <label for="3oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour4-pm">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="3oct-PM" name="3 oct PM" aria-labelledby="3 octobre PM">
+                                    <label for="3oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour4-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="3oct-soir" name="3 oct soir" aria-labelledby="3 octobre soir">
+                                    <label for="3oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour5-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="4oct-AM" name="4 oct AM" aria-labelledby="4 octobre AM">
+                                    <label for="4oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour5-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="4oct-PM" name="4 oct PM" aria-labelledby="4 octobre PM">
+                                    <label for="4oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour5-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="4oct-soir" name="4 oct soir" aria-labelledby="4 octobre soir">
+                                    <label for="4oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour6-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="5oct-AM" name="5 oct AM" aria-labelledby="5 octobre AM">
+                                    <label for="5oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour6-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="5oct-PM" name="5 oct PM" aria-labelledby="5 octobre PM">
+                                    <label for="5oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour6-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="5oct-soir" name="5 oct soir" aria-labelledby="5 octobre soir">
+                                    <label for="5oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour7-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="6oct-AM" name="6 oct AM" aria-labelledby="6 octobre AM">
+                                    <label for="6oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour7-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="6oct-PM" name="6 oct PM" aria-labelledby="6 octobre PM">
+                                    <label for="6oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour7-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="6oct-soir" name="6 oct soir" aria-labelledby="6 octobre soir">
+                                    <label for="6oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour8-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="7oct-AM" name="7 oct AM" aria-labelledby="7 octobre AM">
+                                    <label for="7oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour8-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="7oct-PM" name="7 oct PM" aria-labelledby="7 octobre PM">
+                                    <label for="7oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour8-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="7oct-soir" name="7 oct soir" aria-labelledby="7 octobre soir">
+                                    <label for="7oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour9-am">
+                                <div class="checkbox" >
+                                    <input type="checkbox" id="8oct-AM" name="8 oct AM" aria-labelledby="8 octobre AM">
+                                    <label for="8oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour9-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="8oct-PM" name="8 oct PM" aria-labelledby="8 octobre PM">
+                                    <label for="8oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour9-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="8oct-soir" name="8 oct soir" aria-labelledby="8 octobre soir">
+                                    <label for="8oct-soir"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour10-am">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="9oct-AM" name="9 oct AM" aria-labelledby="9 octobre AM">
+                                    <label for="9oct-AM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour10-pm">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="9oct-PM" name="9 oct PM" aria-labelledby="9 octobre PM">
+                                    <label for="9oct-PM"></label>    
+                                </div>
+                            </div>
+                            <div class="checkbox-dispo jour10-soir">
+                                <div class="checkbox ">
+                                    <input type="checkbox" id="9oct-soir" name="9 oct soir" aria-labelledby="9 octobre soir">
+                                    <label for="9oct-soir"></label>    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
                     </fieldset>
                     <fieldset class="form_fieldset">
                         <legend>Quel genre de bénévolat vous intéresse?</legend>

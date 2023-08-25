@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 // HEADER MOBILE VS PC
 const m_Header = document.querySelector('.m_header');
 const mobileHeaderBtns = document.querySelectorAll('.m_header_container_button_primary');
@@ -82,7 +81,3 @@ mobileHeaderBtns.forEach((button, index) => {
         }
     });
 });
-
-
-
-

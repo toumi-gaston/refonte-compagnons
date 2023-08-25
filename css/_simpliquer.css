@@ -10,7 +10,7 @@
 }
 
 .simpliquer_intro{
-    padding-top: 50px;
+   margin: 10px;
 }
 
 .simpliquer_intro, .simpliquer_benevole, .simpliquer_menterie{
@@ -140,7 +140,7 @@
     }
     
     .simpliquer_intro {
-        width: 100%;
+        margin: 50px;
     }  
     
     .simpliquer_benevole, .simpliquer_menterie{

@@ -1,0 +1,90 @@
+.contact {
+    width: 100%;
+}
+
+.contact_coordonnees_info > h2 {
+    margin: 0;
+}
+
+.contact_coordonnees_info_box {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.contact_coordonnees_info_text > p {
+    margin: 0;
+}
+
+
+/* ------------ GOOGLE MAP ---------*/
+.contact_coordonnees_map > iframe {
+    height: 200px;
+    width: 100%;
+}
+
+.contact_reseaux_container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_reseaux_cheval > img {
+    width: 200px;
+}
+
+.contact_reseaux_insta {
+    margin-top: 50px;
+}
+
+.contact_reseaux_insta > svg, .contact_reseaux_fb > svg {
+    width: 40px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .main_contact {
+        background-image: url(/images/contact/contact_bg.png);
+    }
+
+    .contact {
+        max-width: 1200px;
+    }
+
+    .contact_coordonnees {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact_coordonnees_map {
+        background-color: white;
+        border: solid white 15px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 550px;
+        margin-left: 20px;
+    }
+
+    .contact_coordonnees_map > iframe {
+        height: 350px;
+        max-width: 550px;
+    }
+
+    .contact_form_container {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .contact_reseaux {
+        margin: 0 3%;
+    }
+    
+    .contact_reseaux_cheval > img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact_reseaux_insta > svg, .contact_reseaux_fb > svg {
+        width: 90%;
+    }
+}

@@ -11,10 +11,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <title>Les Compagnons</title>
+        <title>Nous contacter</title>
     </head>
 <body>
-    <header class="basic-header .not-fixed">
+    <header>
         <div class="m_header">
             <div class="m_header_top">
                 <img class="m_header_top_logo" src="./images/logo.png" alt="Logo Les Compagnons de la mise en valeur du patrimoine vivant">
@@ -147,7 +147,7 @@
                         <div class="bottom_nav_menu_submenu">
                             <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn bottom_nav_menu_submenu_btn_toplist">Billetterie</button>
                             <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn">La forge en action</button>
-                            <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn">Événements à venir</button>
+                            <button class="bottom_nav_menu_submenu_btn bg_forge forgeBtn">Les événements à venir</button>
                         </div>
                     </div>
 
@@ -188,21 +188,121 @@
     <main>
         <!--Banniere-->
         <div class="main_banner">
-            <div class="vdp_banner">
-                <div class="vdp_banner_left_img_container">
-                    <img src="./images/vdp_banner_left_img.png" alt="photo d'église">
-                </div>  
-                <div class="vdp_banner_title_container">
-                    <h2 class="h1">vents de paroles</h2>
+            <div class="mission_banner">
+                <div class="mission_banner_title_container">
+                    <h2 class="h1">nous contacter</h2>
                 </div>
-                <div class="vdp_banner_right_img_container">
-                    <img src="./images/vdp_banner_right_img.png" alt="3 lignes courbes">
-                </div>  
+                <div class="mission_banner_img_container">
+                    <img src="./images/mission_banner_img.png" alt="photo antique de femmes">
+                </div>
             </div>
         </div>
         <!-- Contenu du main -->
-        <div class="main_content">
-            
+        <div class="main_content main_contact">
+            <div class="contact">
+                <div class="contact_coordonnees">
+                    <div class="contact_coordonnees_info">
+                        <h2 class="h2-cursive">Coordonnées</h2>
+                        <div class="contact_coordonnees_info_box textblock">
+                            <div class="contact_coordonnees_info_icon">
+                                <span class="material-symbols-outlined">location_on</span>
+                            </div>
+                            <div class="contact_coordonnees_info_text">
+                                <p>363 Rue Vézina, Trois-Pistoles, QC G0L 4K0</p>
+                            </div>
+                        </div>
+                        <div class="contact_coordonnees_info_box textblock">
+                            <div class="contact_coordonnees_info_icon">
+                                <span class="material-symbols-outlined">call</span>
+                            </div>
+                            <div class="contact_coordonnees_info_text">
+                                <p>(418) 857-3248</p>
+                            </div>
+                        </div>
+                        <div class="contact_coordonnees_info_box textblock">
+                            <div class="contact_coordonnees_info_icon">
+                                <span class="material-symbols-outlined">alternate_email</span>
+                            </div>
+                            <div class="contact_coordonnees_info_text">
+                                <p>Directrice Générale</p>
+                                <p>Gabrielle Ayotte Garneau</p>
+                                <p>compagnonspatrimoinevivant@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact_coordonnees_info_box textblock">
+                            <div class="contact_coordonnees_info_icon">
+                                <span class="material-symbols-outlined">alternate_email</span>
+                            </div>
+                            <div class="contact_coordonnees_info_text">
+                                <p>Coordonnatrice</p>
+                                <p>Alexandra Turgeon</p>
+                                <p>coordofestivalrvgg@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_coordonnees_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5326.643832980805!2d-69.174352!3d48.123315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4c95f548240ef039%3A0x280fd7bc6d0809f!2s363%20Rue%20V%C3%A9zina%2C%20Trois-Pistoles%2C%20QC%20G0L%204K0%2C%20Canada!5e0!3m2!1sfr!2sus!4v1692629034519!5m2!1sfr!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact_form">
+                    <h2 class="h2-cursive">Formulaire de contacts</h2>
+                    <div class="contact_form_container">
+                        <div class="contact_container">
+                            <div class="contact_form_container">
+                                <form class="contact_form_container_form" action="traitement.php" method="POST">
+                                    <div class="contact_form_container_form_inputContainer">
+                                        <label for="nom">Nom :</label>
+                                        <input type="text" id="nom" name="nom" required>
+                                    </div>
+
+                                    <div class="contact_form_container_form_inputContainer">
+                                        <label for="email">Email :</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+
+                                    <div class="contact_form_container_form_inputContainer">
+                                        <label for="sujet">Sujet :</label>
+                                        <input type="text" id="sujet" name="sujet" required>                        
+                                    </div>
+
+                                    <div class="contact_form_container_form_inputMessageContainer">
+                                        <label for="message">Message :</label><br>
+                                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                                    </div>
+
+                                    <div></div>
+
+                            
+
+                            
+
+                            
+                                    <input type="submit" value="Envoyer">
+                                </form>
+                            </div>                        
+                        </div>
+                        <div class="contact_reseaux">
+                            <div class="contact_reseaux_container">
+                                <div class="contact_reseaux_fb">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M59.8233 30.0054C59.8233 13.4816 46.4354 0.09375 29.9116 0.09375C13.3879 0.09375 0 13.4816 0 30.0054C0 44.9347 10.9382 57.3094 25.2379 59.5552V38.652H17.6394V30.0054H25.2379V23.4152C25.2379 15.9192 29.7006 11.7786 36.5356 11.7786C39.809 11.7786 43.232 12.3623 43.232 12.3623V19.7196H39.4592C35.7444 19.7196 34.5853 22.0257 34.5853 24.3909V30.0054H42.881L41.5542 38.652H34.5853V59.5552C48.885 57.3094 59.8233 44.9347 59.8233 30.0054Z" fill="black"/>
+                                    </svg>
+                                </div>
+                                <div class="contact_reseaux_cheval">
+                                    <img src="/images/contact/cheval wow.png" alt="">
+                                </div>
+                                <div class="contact_reseaux_insta">
+                                    <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M29.9183 14.7716C21.4303 14.7716 14.5838 21.6181 14.5838 30.1061C14.5838 38.5942 21.4303 45.4406 29.9183 45.4406C38.4063 45.4406 45.2528 38.5942 45.2528 30.1061C45.2528 21.6181 38.4063 14.7716 29.9183 14.7716ZM29.9183 40.0756C24.4331 40.0756 19.9489 35.6047 19.9489 30.1061C19.9489 24.6076 24.4198 20.1367 29.9183 20.1367C35.4168 20.1367 39.8877 24.6076 39.8877 30.1061C39.8877 35.6047 35.4035 40.0756 29.9183 40.0756ZM49.4568 14.1444C49.4568 16.1329 47.8553 17.7211 45.8801 17.7211C43.8915 17.7211 42.3034 16.1196 42.3034 14.1444C42.3034 12.1692 43.9049 10.5676 45.8801 10.5676C47.8553 10.5676 49.4568 12.1692 49.4568 14.1444ZM59.6131 17.7745C59.3862 12.9833 58.2918 8.73925 54.7818 5.24261C51.2852 1.74597 47.0412 0.651598 42.25 0.411371C37.312 0.131106 22.5113 0.131106 17.5733 0.411371C12.7954 0.638252 8.55142 1.73262 5.04144 5.22926C1.53145 8.7259 0.450426 12.9699 0.210199 17.7611C-0.0700663 22.6991 -0.0700663 37.4998 0.210199 42.4378C0.43708 47.229 1.53145 51.473 5.04144 54.9696C8.55142 58.4663 12.7821 59.5607 17.5733 59.8009C22.5113 60.0811 37.312 60.0811 42.25 59.8009C47.0412 59.574 51.2852 58.4796 54.7818 54.9696C58.2785 51.473 59.3728 47.229 59.6131 42.4378C59.8933 37.4998 59.8933 22.7125 59.6131 17.7745ZM53.2337 47.7361C52.1927 50.3519 50.1775 52.3672 47.5483 53.4215C43.6113 54.983 34.2691 54.6227 29.9183 54.6227C25.5675 54.6227 16.212 54.9696 12.2883 53.4215C9.67248 52.3805 7.65724 50.3653 6.60291 47.7361C5.04144 43.7991 5.40178 34.4569 5.40178 30.1061C5.40178 25.7553 5.05478 16.3998 6.60291 12.4761C7.6439 9.86031 9.65914 7.84507 12.2883 6.79074C16.2253 5.22926 25.5675 5.5896 29.9183 5.5896C34.2691 5.5896 43.6246 5.24261 47.5483 6.79074C50.1641 7.83172 52.1794 9.84696 53.2337 12.4761C54.7952 16.4132 54.4348 25.7553 54.4348 30.1061C54.4348 34.4569 54.7952 43.8124 53.2337 47.7361Z" fill="black"/>
+                                    </svg>
+                                </div>                            
+                            </div>
+
+                        </div>                        
+                    </div>
+
+                </div>
+            </div>
         </div>
     </main>
 

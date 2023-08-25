@@ -1,0 +1,48 @@
+/* ------------ CONTAINER DU CONTENT ---------*/
+.prixContainer {
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+
+/* ------------ CAROUSEL ---------*/
+.prix_carousel_container {
+    overflow-x: auto;
+}
+
+
+/* ------------ CARD ---------*/
+.prix-card, .prix-card-img {
+    width: 160px; /* GROSSEUR DE LA CARTE */
+}
+
+.prix-card {
+    background-color: var(--festival);
+    color: white;
+}
+
+.prix-card-winnerNameBox {
+    text-align: center;
+    height: 73px;
+}
+
+.prix-card-winnerNameBox > p {
+    margin: 0;
+}
+
+
+
+/* ------------ CAROUSEL CONTAINER ---------*/
+.prix_carousel_content {
+    display: flex;
+    gap: 5px;
+}
+
+/* RESTE DU CODE POUR ADAPTER CAROUSEL FAIT PAR SIMON */
+
+
+
+
+@media screen and (min-width: 1500px) {
+
+}

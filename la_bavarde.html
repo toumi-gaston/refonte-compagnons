@@ -6,12 +6,13 @@
         <link rel="stylesheet" href="./css/style.css">
         <script src="./js/main.js" defer></script>
         <script src="./js/classes/_header.js" defer></script>
+        <script src="./js/accueil_rdv.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <title>Prix Jocelyn-Bérubé</title>
+        <title>Document</title>
     </head>
 <body>
     <header>
@@ -185,12 +186,13 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <!--Banniere-->
         <div class="main_banner">
-            <div class="rdv_banner">
+            <div class="rdv_banner festival_banner">
                 <div class="rdv_banner_title_container">
-                    <h2 class="h1">prix jocelyn bérubé</h2>
+                    <h2 class="h1">La Bavarde</h2>
+                    <p>bière officielle</p>
                 </div>
                 <div class="rdv_banner_img_container">
                     <img src="./images/rdv_banner_img.png" alt="conteur d'histoire">
@@ -198,172 +200,26 @@
             </div>
         </div>
         <!-- Contenu du main -->
-        <div class="main_content">
-            <div class="prixContainer">
-                <div class="prix_texte textblock">
-                    <p>Depuis 2006, le désormais célèbre Oscar du conte est remis chaque année à un conteur, une conteuse ou une porteuse, porteur de la mémoire collective afin de souligner son implication pour la vitalité de l’oralité au Québec.</p>
-                    <p>À l’image du personnage du Quêteux, mis en scène par nul autre que le conteur Jocelyn Bérubé, la statuette est créée par le sculpteur bicois Paul-Henri Dubé et façonnée par l'artiste Jacques Bodart.</p>
+        <section class="main_content">
+            <quote class="h2-cursive bavarde_quote">Les braises ne s’étaient jamais vraiment éteintes. Après le départ du forgeron Bérubé, ce sont les mots qui ont rougeoyé dans la nuit.</quote>
+            <div class="bavarde_top_content">
+                <div class="bavarde_infos_container_text bavarde_top_text">
+                    <p class="textblock bavarde_text">Constellations incandescentes tantôt chuchotées, tantôt réclamées avec l’écho d’une fête rassembleuse, depuis plus de vingt-cinq ans émerveillent petites et grandes oreilles.</p>
+                    <p class="textblock bavarde_text">Les artisans qui œuvrent au projet de microbrasserie <span class="bold_text">Le Caveau des Trois-Pistoles</span> sont fiers d’abreuver le cœur de la parole populaire pistoloise d’ici et d’ailleurs avec <span class="bold_text">La Bavarde</span>. Cette bière chaleureuse et intense rappelle par ses notes fumées qu’il n’y a pas de braises sans feu, le feu sacré du conte qui se répercute sur les papilles des langues déliées.</p>
                 </div>
-                <div class="prix_carousel">
-                    <h3 class="prix_carousel_title h2-cursive">Récipiendaires du prix Jocelyn Bérubé</h3>
-                    <div class="prix_carousel_container">
-                        <div class="prix_carousel_content">
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2022- Joujou Turenne.png" alt="2022 - Joujou Turenne">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2022</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Joujou Turenne</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2021 - Joséphine Bacon.png" alt="2021 - Joséphine Bacon.png">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2021</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Joséphine Bacon</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2020 - Simon Gauthier.png" alt="2020 - Simon Gauthier">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2020</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Simon Gauthier</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2019 - Nadine Walsh.png" alt="2019 - Nadine Walsh">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2019</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Nadine Walsh</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2018 - Stéphanie Bénéteau.png" alt="2018 - Stéphanie Bénéteau">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2018</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Stéphanie Bénéteau</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2017 - Francois Lavallée.png" alt="2017 - Francois Lavallée">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2017</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Francois Lavallée</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2016 - Boucar Diouf.png" alt="2016 - Boucar Diouf">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2016</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Boucar Diouf</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2015 - Renée Robitaille.png" alt="2015 - Renée Robitaille">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2015</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Renée Robitaille</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2014 - Claudette L'heureux.png" alt="2014 - Claudette L'heureux">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2014</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Claudette L'heureux</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2013 - Mike Burns.png" alt="2013 - Mike Burns">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2013</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Mike Burns</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2012 - Maurice Vaney.png" alt="2012 - Maurice Vaney">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2012</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Maurice Vaney</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2011 - Marie-Fleurette Beaudoin.png" alt="2011 - Marie-Fleurette Beaudoin">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2011</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Marie-Fleurette Beaudoin</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2011 - Petronella Van Dijk.png" alt="2011 - Petronella Van Dijk">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2011</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Petronella Van Dijk</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2010 - André Lemelin.png" alt="2010 - André Lemelin">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2010</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">André Lemelin</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2010 - Jean-Marc Massie.png" alt="2010 - Jean-Marc Massie">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2010</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Jean-Marc Massie</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2009 - Michel Faubert.png" alt="2009 - Michel Faubert">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2009</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Michel Faubert</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2008 - Alain Lamontagne.png" alt="2008 - Alain Lamontagne">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2008</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Alain Lamontagne</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2007 - Marcel Desjardins.png" alt="2007 - Marcel Desjardins">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2007</p>
-                                    <p class="prix-card-winnerNameBox-name textblock">Marcel Desjardins</p>
-                                </div>
-                            </div>
-    
-                            <div class="prix-card">
-                                <img class="prix-card-img" src="/images/recipiendaires/2006 - Marc Laberge.png" alt="2006 - Marc Laberge">
-                                <div class="prix-card-winnerNameBox">
-                                    <p class="prix_card_winnerNameBox-year card-title">2006</p>
-                                    <p class="prix_card_winnerNameBox-name textblock">Marc Laberge</p>
-                                </div>
-                            </div>
-                        </div>
+                <img src="./images/bieres.png" alt="photo de différentes bières">
+            </div>
+            <div class="bavarde_bottom_content">
+                <div class="bavarde_infos_container_text bavarde_bottom_content">
+                    <div class="bavarde_bottom_content_texts">
+                        <quote class="h2-cursive bavarde_quote"> ❝Ça l’air que si tu bois assez de bavarde, tu deviens conteur!❞</quote>
+                        <p class="textblock bavarde_text">La Bavarde est servie à la Forge à Bérubé pendant le Rendez-vous des Grandes Gueules, elle est disponible à la microbrasserie <a href="https://caveau3pistoles.com/">Le Caveau des Trois-Pistoles.</a></p> 
                     </div>
+                    <img src="./images/bavarde_couleur.png" alt="photo de la bière la bavarde" class="bavarde_photo_couleur">
                 </div>
             </div>
-        </div>
+            
+        </section>
     </main>
 
     <footer>

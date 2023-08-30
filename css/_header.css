@@ -298,7 +298,20 @@ body {
 	font-size: 3em;
 }
 
-@media screen and (max-width: 1999px) {
+@media screen and (min-width: 1500px) {
+    header {
+        background-image: url('/images/header_bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center 20%;
+        height: 14vw;
+    }
+
+    .top_nav_logo {
+        width: 24%;
+        max-width: 500px;
+    }
+
     .m_header {
         background-color: black;
         position: fixed;

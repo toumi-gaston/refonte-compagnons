@@ -53,6 +53,7 @@ body{
     align-items: center;
     text-decoration: none;
     padding: 15px;
+    width: 100%;
 }
 
 
@@ -487,6 +488,7 @@ body{
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
+        margin-top: 2px;
     }
 
     .mission_banner img{
@@ -534,7 +536,8 @@ body{
         padding: 0;
     }
 
-    .rdv_banner_title_container{
+    .rdv_banner_title_container,
+    .mission_banner_title_container{
         width: 50%;
         display: flex;
         justify-content: center;

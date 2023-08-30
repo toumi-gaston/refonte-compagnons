@@ -1,0 +1,21 @@
+.projets_en_cours{
+    width: 90%;
+    margin-top: 60px;
+}
+
+.projets_passes{
+    width: 90%;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1500px){
+    .projet_container h3{
+        font-size: 24px;
+    }
+
+    .projet_container>p{
+        font-size: 20px;
+    }
+
+}

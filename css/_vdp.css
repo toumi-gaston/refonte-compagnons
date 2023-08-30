@@ -1,0 +1,23 @@
+.vdp_content_zigzagContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.vdp_content_zigzagContainer > img {
+    width: 60vw;
+    max-width: 550px;
+}
+
+.vdp_content_pres {
+    margin-bottom: 40px;
+}
+
+.vdp_content_textBox {
+    margin: 30px 0;
+}
+
+.vdp_h3_hover{
+    background-color: var(--vents);
+    color: white;
+    transition: 300ms;
+}

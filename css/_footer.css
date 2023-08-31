@@ -750,7 +750,8 @@ body{
         height: 300px;
     }
 
-    .rdv_banner_title_container{
+    .rdv_banner_title_container,
+    .mission_banner{
         padding-left: 200px;
     }
 

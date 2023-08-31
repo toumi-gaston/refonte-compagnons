@@ -110,4 +110,5 @@ if (responsableContainer) {
     }
 
     responsableContainer.addEventListener('mouseover', responsable_applyAnimation);
+    responsableContainer.addEventListener('mouseout', responsable_removeAnimation);
 }

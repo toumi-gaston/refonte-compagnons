@@ -99,6 +99,7 @@
     font-size: 24px;
     transition: 300ms;
 }
+
 .btn-default:active{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -106,7 +107,18 @@
     transition: 300ms;
 }
 
+.underline {
+    text-decoration: underline;
+}
 
+.link {
+    color: black;
+    font-size: 16px;
+}
+
+.link:hover, .link:focus {
+    font-weight: 500;
+}
 
 @media screen and (min-width: 1500px){
 

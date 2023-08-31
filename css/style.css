@@ -19,25 +19,10 @@
 @import url(_faq.css);
 @import url(_accordion.css);
 @import url(_programmation.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import url(_vdp.css)
+@import url(_vdp.css);
+@import url(_la_forge_en_action.css);
+@import url(_equipe_compagnons.css);
+@import url(_notre_mission.css);
+@import url(_notre_histoire.css);
+@import url(_nos_projets.css);
+@import url(_no_partenaires.css);

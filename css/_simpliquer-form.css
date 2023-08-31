@@ -167,3 +167,9 @@
     .jour10-soir { grid-area: 4 / 11 / 5 / 12; }
 
 }
+
+/*LISTE QUEL GENRE DE BÉNÉVOLAT*/
+
+.checkbox .choix-bene{
+    margin: 24px;
+}
